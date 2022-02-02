@@ -1,0 +1,38 @@
+
+.table{
+    height:100px;
+    width:500px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:10%;
+
+}
+
+td{
+
+    border-radius:5px;
+}
+input[type="text"]:focus{
+    outline:0;
+}
+input[type="text"], select{
+    border:0;
+}
+
+select{
+width:100%;
+}
+
+button
+{
+   border:2px solid black;
+   color:black;
+   font-family:Times New Roman;
+   border-radius:3px;
+   font-weight:bold;
+}
+
+.container-fluid{
+    border:1px solid black;
+    border-radius:5px;
+}
