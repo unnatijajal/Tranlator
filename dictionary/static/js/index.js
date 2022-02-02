@@ -1,7 +1,3 @@
- if(document.getElementById("b").clicked == true)
-    console.log("clicked");
-else
-    console.log("not clicked");
 
  if (performance.navigation.type == performance.navigation.TYPE_RELOAD){
     console.log("page loaded")
