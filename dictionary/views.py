@@ -8,16 +8,6 @@ import pyttsx3
 
 
 # Create your views here.
-def talk(request):
-
-    t1 = request.GET.get('tt')
-    print(t1)
-    engine = pyttsx3.init()
-    engine.setProperty('rate', 150)
-    engine.say(t1)
-    engine.runAndWait()
-    return http.HttpResponse("")
-   # home(request)
 
 
 def home(request):
@@ -33,8 +23,6 @@ def home(request):
         return render(request, "home.html", {'o': str.text, 'i': t1, 'tl': tl, 'fl': fl, 'lang': lang})
 
 
-def btn_submit(request):
-    pass
 
 
 
